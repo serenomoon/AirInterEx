@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oleo+Script&display=swap');
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+/* STICKY ASTRONAUT */
+.astronaut {
+  position: fixed;
+  bottom: 10px;
+  left: 78%;
+  width: max-content;
+  padding-right: 30px;
+}
+
+.astronaut a {
+  display:flex;
+}
+
+.astronaut img {
+  width: 80px;
+  margin-right: 12px;
+}
+
+.talk-bubble {
+  border-radius: 8px;
+  margin-top: 25px;
+  position: relative;
+	width: 180px;
+	height: 45px;
+	background-color: lightyellow;
+}
+
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -15px;
+	right: auto;
+  top: 10px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+}
+
+.talktext{
+  color: black;
+  line-height: 45px;
+	text-align: center;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0 5px;
+}

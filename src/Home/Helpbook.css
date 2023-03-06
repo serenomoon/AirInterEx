@@ -1,0 +1,61 @@
+.help-book {
+    text-align: left;
+    margin: 70px 7%;
+  }
+  
+  .help-book h1 {
+    font-size: 26px;
+    margin-bottom: 32px;
+  }
+  
+  .help-book img {
+    width: 50px;
+  }
+  
+  
+  .help-book h3 {
+    font-size: 23px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .help-book p {
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .help-book a {
+    color: rgb(219, 88, 36);
+    font-size: 18px;
+    /* float: left; */
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+  
+  .help-book a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+  }
+  
+  
+  .help {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 50px;
+  }
+  
+  .book {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .book div {
+    margin-right: 40px;
+  }
+  
+  .signature {
+    color: grey;
+    font-size: 12px;
+    margin: 0 7%;
+    display: flex;
+  }

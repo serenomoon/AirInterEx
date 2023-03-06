@@ -1,0 +1,556 @@
+.presentation {
+    background: url("../assets/viaje-marte.jpg") no-repeat;
+    background-size: 100%;
+    padding-top: 7%;
+  }
+  
+  
+  .presentation-title {
+    font-family: 'Noto Serif', serif;
+    color: white;
+    font-size: 3.7rem;
+    text-shadow: 
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+  }
+  
+  .promos {
+    margin: auto 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+  }
+  
+  .promo-circle {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 100%;
+    color: white;
+    height: 210px;
+    width: 210px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.801);
+  }
+  
+  .promo-circle:hover {
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 1px solid rgb(219, 88, 36);
+  }
+  
+  .promo-circle h4 {
+    font-family: 'Noto Serif', serif;
+    padding-top: 5px;
+    font-size: 25px;
+  }
+  
+  .promo-price {
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    height: 50px;
+  }
+  
+  .promo-price > :nth-child(1) {
+      font-weight: 100;
+      position: absolute;
+      top:-20px;
+      left: 5px;
+  }
+  
+  .promo-price > :nth-child(2) {
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+  }
+  
+  .promo-price > :nth-child(3) {
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    font-size: 60px;
+  }
+  
+  .roundtrip {
+    font-size: 12px;
+  }
+  
+  .promo-circle :nth-child(4) {
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(219, 88, 36);
+  }
+  
+  
+  .fastbuy {
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 50px 20%;
+    padding: 10px;
+  }
+  
+  .fastbuy ul {
+    display: flex;
+  }
+  
+  .fastbuy a {
+    padding-right: 10px;
+  }
+  
+  .fastbuy a:hover {
+    color: rgb(219, 88, 36);
+    transition: 0.3s;
+  }
+  
+  .separator {
+    position: relative;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.699);
+  }
+  
+  .separator div {
+    position: absolute;
+    top:-1px;
+    height: 3px;
+    width: 110px;
+    background-color: rgb(219, 88, 36);
+  }
+  
+  .fromto {
+    margin: auto 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+  }
+  
+  .fromto input {
+    width: 80%;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow:inset 0 0 1px #000;
+    -moz-box-shadow:inset 0 0 1px #000;
+    box-shadow:inset 0 0 1px #000;
+    background: white;
+  }
+  
+  .fromto input:focus {
+    outline:none;
+    -webkit-box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    -moz-box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    transition: 0.3s;
+  }
+  
+  .fromto button {
+    cursor: pointer;
+    height: 70%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(219, 88, 36);
+    border-radius: 7px;
+  }
+  
+  .fromto button:hover {
+    background-color: rgb(163, 64, 25);
+    transition: 0.3s;
+  }
+  
+  .fastbuy-expand {
+    display: none;
+    position: absolute;
+    background-color: black;
+    left: 0;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .fastbuy:focus-within .fastbuy-expand{
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
+  }
+  
+  .fastbuy-radio {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+  
+  .fastbuy-radio :nth-child(3) {
+    color: rgb(219, 88, 36);
+  }
+  
+  .fastbuy-radio input {
+    font-size: 18px;
+  }
+  
+  /* .fastbuy-expand:hover {
+    display: block;
+  } */
+  
+  /* CALENDAR */
+  /* CALENDAR */
+  .containerForm{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .containerForm input{
+  width: 263px;
+  height: 25px;
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 10px;
+  }
+  
+  .datepicker {
+  display: none;
+  text-align: center;
+  margin: 0 auto;
+  /* width: 100%; */
+  float: none;
+  font-family: 'Montserrat', sans-serif;
+  background: none\9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#F70F141C,endColorstr=#F70F141C)";
+  font-size: 10px;
+  /* padding: 10px; */
+  color: rgba(255,255,255,0.9);
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  }
+  
+  .travel-dates:focus-within .datepicker {
+    display: inline-block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
+  }
+  
+  
+  .ui-datepicker-row-break {
+  display: none;
+  }
+  .ui-datepicker-multi .ui-datepicker-group {
+  float: left;
+  padding: 5px;
+  }
+  
+  
+  
+  .ll-skin-melon {
+  font-size: 90%;
+  }
+  
+  .ll-skin-melon .ui-widget {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  background: #343639;
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  }
+  
+  .ll-skin-melon .ui-datepicker {
+  padding: 0;
+  }
+  
+  .ll-skin-melon .ui-datepicker-header {
+  border: none;
+  background: transparent;
+  font-weight: normal;
+  font-size: 15px;
+  }
+  
+  .ll-skin-melon .ui-datepicker-header .ui-state-hover {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  }
+  
+  .ll-skin-melon .ui-datepicker .ui-datepicker-title {  
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 17px;
+  text-transform: uppercase;
+  }
+  
+  .ll-skin-melon .ui-datepicker .ui-datepicker-prev-hover,
+  .ll-skin-melon .ui-datepicker .ui-datepicker-next-hover,
+  .ll-skin-melon .ui-datepicker .ui-datepicker-next,
+  .ll-skin-melon .ui-datepicker .ui-datepicker-prev {
+  top: .9em;
+  border:none;
+  }
+  
+  .ll-skin-melon .ui-datepicker .ui-datepicker-prev-hover {
+  left: 2px;
+  }
+  
+  .ll-skin-melon .ui-datepicker .ui-datepicker-next-hover {
+  right: 2px;
+  }
+  
+  .ll-skin-melon .ui-datepicker .ui-datepicker-next span,
+  .ll-skin-melon .ui-datepicker .ui-datepicker-prev span {
+  background-image: url(images/ui-icons_ffffff_256x240.png);
+  background-position: -32px 0;
+  margin-top: 0;
+  top: 0;
+  font-weight: normal;
+  }
+  
+  .ll-skin-melon .ui-datepicker .ui-datepicker-prev span {
+  background-position: -96px 0;
+  }
+  
+  .ll-skin-melon .ui-datepicker table {
+  margin: 0;
+  }
+  
+  .ll-skin-melon .ui-datepicker th {
+  font-weight: normal;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  cursor: text;
+  height: 25px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 10px;
+  }
+  
+  .ll-skin-melon .ui-datepicker td {
+  background: rgba(255,255,255,0.05);
+  border: none;
+  padding: 0;
+  }
+  
+  .ll-skin-melon td .ui-state-default {
+  background: transparent;
+  border: none;
+  text-align: center;
+  padding: .5em;
+  margin: 0;
+  font-weight: normal;
+  color: #efefef;
+  font-size: 16px;
+  }
+  
+  .ll-skin-melon .ui-state-disabled  {
+  opacity: 1;
+  }
+  
+  .ll-skin-melon .ui-state-disabled .ui-state-default {
+  color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /*.ll-skin-melon td .ui-state-active,*/
+  .ll-skin-melon td .ui-state-hover {
+  background: #FF9700 !important;
+  }
+  /****************************************/
+  /****************************************/
+  .ll-skin-melon td.dp-highlight .ui-state-default {
+  background: #F5A64E;
+  color: #FFF;
+  }
+  
+  .ll-skin-melon .ui-datepicker td.dateFrom a,.ll-skin-melon .ui-datepicker td.dateTo a{
+  background: #FF9700;
+  }
+  .ui-datepicker td.dp-highlight:first a , .ui-datepicker td.dp-highlight:last a{
+  background: #FF9700;
+  }
+  
+  .ui-datepicker.ui-datepicker-multi  {
+  width: auto;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex !important;
+  }
+  .ui-datepicker-multi .ui-datepicker-group {
+  float:none;
+  }
+  #datepicker {
+  height: 300px;
+  overflow-x: scroll;
+  }
+  .ui-widget { font-size: 100% }
+  
+  .dateFrom {
+  position: relative;
+  background: #FF9700;
+  border: 4px solid #0008f5;
+  }
+  .dateFrom:after, .dateFrom:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  }
+  
+  .dateFrom:after {
+  border-color: rgba(213, 0, 0, 0);
+  border-left-color: #FF9700;
+  border-width: 17px;
+  margin-top: -17px;
+  }
+  .dateFrom:before {
+  border-color: rgba(0, 8, 245, 0);
+  border-width: 17px;
+  margin-top: -17px;
+  }
+  
+  /* CALENDAR */
+  /* CALENDAR */
+  
+  .passengers {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 20px;
+  }
+  
+  .passengers-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .passengers-title div {
+    margin: auto 5px;
+  }
+  
+  .passengers-select {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .passengers-select button {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-color: transparent;
+    color: rgb(182, 72, 29);
+    border: 2px solid rgb(182, 72, 29);
+  }
+  
+  .passengers-select button:hover {
+    color: rgb(231, 102, 50);
+    border: 2px solid rgb(231, 102, 50);
+  }
+  
+  .passengers-select button:focus {
+    color: rgb(255, 123, 70);
+    border: 2px solid rgb(255, 123, 70);
+  }
+  
+  .passengers-number {
+    margin: 2px 0;
+    background-color: white;
+    color: black;
+    width: 13%;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow:inset 0 0 1px #000;
+    -moz-box-shadow:inset 0 0 1px #000;
+    box-shadow:inset 0 0 1px #000;
+    background: white;
+  }
+  
+  .childalone-check {
+    display: flex;
+    justify-content: start;
+    margin: 20px 0;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .childalone-check input {
+    margin-right: 10px;
+    width: 18px;
+  }
+  
+  
+  .service-promo {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .service-promo-title {
+    display:flex;
+    justify-content: center;
+  }
+  
+  .service-promo-title div {
+    margin: 0 10px;
+  }
+  
+  .service-promo select {
+    width: 80%;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow:inset 0 0 1px #000;
+    -moz-box-shadow:inset 0 0 1px #000;
+    box-shadow:inset 0 0 1px #000;
+    background: white;
+  }
+  
+  .service-promo select:focus {
+    outline:none;
+    -webkit-box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    -moz-box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    transition: 0.3s;
+  }
+  
+  .service-promo input {
+    width: 80%;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow:inset 0 0 1px #000;
+    -moz-box-shadow:inset 0 0 1px #000;
+    box-shadow:inset 0 0 1px #000;
+    background: white;
+  }
+  
+  .service-promo input:focus {
+    outline:none;
+    -webkit-box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    -moz-box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    box-shadow:inset 0px 0px 0px 2px rgb(219, 88, 36);
+    transition: 0.3s;
+  }
