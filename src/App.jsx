@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Astronaut from './assets/astronaut.svg';
-import { Menu } from './Home/Menu';
+import { Menu } from './Menu/Menu';
 import { Presentation } from './Home/Presentation';
 import './App.css';
 import { Boxes } from './Home/Boxes';

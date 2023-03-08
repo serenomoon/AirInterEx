@@ -1,0 +1,148 @@
+.menu-bm {
+  display: none;
+}
+
+.menu-button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  display: none;
+}
+
+.menubar {
+  display: none;
+  width: 0;
+}
+
+@media (max-width: 768px) and (min-width:481px) {
+    
+    .menu-bm {
+        display: block;
+        margin: auto 0;
+      }
+
+    .menu-button {
+        display: flex;
+        justify-content: start;
+        cursor: pointer;
+    }
+
+
+    .menubar {
+        border-top: 1px solid rgb(73, 73, 73);
+        position: absolute;
+        background-color: black;
+        z-index: 2;
+        display: block;
+        top: 70px;
+        left: 0;
+        height:100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        transition: ease width 0.3s;
+    }
+    
+
+    .menubar .searchbar {
+      display: flex;
+      margin-top: 30px;
+      height: 40px;
+    }
+
+    .menubar::-webkit-scrollbar-thumb {
+      background-color: white;
+    }
+
+    .menubar::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    .menubar .searchbar:focus-within{
+      border: 2px solid rgb(219, 88, 36);
+      margin: 29px 9px -1px 9px  !important;
+    }
+
+    .menubar .searchbar input{
+      font-size: 15px;
+    }
+
+    .menubar .secondmenu {
+      display: block;
+    }
+
+    .menubar .secondmenu a {
+      display: block;
+      text-align: start;
+      margin: 10px 0;
+    }
+
+    .menubar .firstmenu {
+      display: block;
+      text-align: start;
+      margin: 10px 0;
+    }
+
+    .menubar .firstmenu a:hover{
+      color: rgb(219, 88, 36);
+      transition: 0.3s;
+    }
+
+    .menubar .firstli {
+      position: relative;
+      margin-bottom: 30px;
+    }
+    
+    .menubar .firstli > a:first-child {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .menubar .firstmenu .dropdown{
+      position: static;
+      display: block;
+      text-align: start;
+      margin: 10px 0;
+      min-height:auto;
+    }
+
+    .menubar .firstmenu .droprelative{
+      display: block;
+    }
+
+    .menubar .firstmenu .dropdown-back {
+      padding: 0;
+    }
+
+    .menubar .firstmenu .droprelative div{
+      box-shadow: none;
+    }
+
+    .menubar .firstmenu .dropdown-child {
+      padding: 0;
+      position: relative;
+    }
+
+    .menubar .firstmenu .dropdown-child li{
+      padding: 0;
+      display: none;
+      margin: 15px 0;
+      font-weight: 400;
+    }
+    
+    .menubar .firstmenu .dropdown-child li:first-of-type{
+      display: block;
+    }
+
+    .menubar .firstmenu .dropdown-child ul{
+      padding: 0;
+      display: block;
+      position: static;
+    }
+
+    .menubar .firstmenu li:hover .dropdown {
+      display: block;
+    }
+
+
+}

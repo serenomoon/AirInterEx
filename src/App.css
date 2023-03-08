@@ -18,7 +18,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: minmax(0, 1fr);
   grid-template-rows: auto auto auto auto auto auto;
 }
 
@@ -86,4 +86,11 @@ ul {
 
 li {
   padding: 0 5px;
+}
+
+
+@media (max-width: 768px) and (min-width:481px) {
+  .container {
+    overflow-x: hidden;
+  }
 }

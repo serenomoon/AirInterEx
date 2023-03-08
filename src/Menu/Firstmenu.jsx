@@ -1,17 +1,8 @@
 import { Link } from 'react-router-dom';
-import AirLogoWhite from '../assets/logo-viaje-w.png';
-import './Menu.css';
 
-export const Menu = () => {
+export const Firstmenu = () => {
   return (
-    <div className='menu'> 
-      
-        <div className='logo'>
-          <div className='airspan'>AIR INTER EX</div>
-          <img className='airlogo' src={ AirLogoWhite } />
-        </div>
-
-        <ul className='firstmenu'>
+    <ul className='firstmenu'>
           <li className='firstli'>
             <Link to='#'>Plan</Link>
             <ul className="dropdown">
@@ -291,19 +282,5 @@ export const Menu = () => {
             </ul>
           </li>
         </ul>
-
-        <div className='searchbar'>
-            <button type="submit" className="searchButton">
-              <i className="fa fa-search"></i>
-            </button>
-            <input placeholder='Search'></input>
-        </div>
-
-        <nav className='secondmenu'>
-          <Link to='#'>Manage Booking</Link>
-          <Link to='#'>Check In</Link>
-          <Link to='#'>Sign In</Link>
-        </nav>
-      </div>
   )
 }
