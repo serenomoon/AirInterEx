@@ -80,7 +80,7 @@
     background-color: black;
     color: white;
     padding: 30px 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .foot-list {
@@ -113,10 +113,10 @@
   }
   
   .foot-info p {
-    font-size: 15px;
+    font-size: 13px;
   }
   
   .foot-info p + p{
-    font-size: 18px;
+    font-size: 16px;
   }
 }

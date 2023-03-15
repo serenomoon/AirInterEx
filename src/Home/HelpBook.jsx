@@ -44,7 +44,7 @@ export const HelpBook = () => {
                 </div>
                 <div>
                     <img src='https://p-airnz.com/cms/assets/Common-Assets/Icons/air-new-zealand-icon-bike-100x100.png'/>
-                    <h3>activities</h3>
+                    <h3>Activities</h3>
                     <p>Voluptate exercitation anim proident est eiusmod consectetur tempor sit labore labore eiusmod pariatur tempor.</p>
                     <Link to='#'>Book an activity</Link>
                 </div>

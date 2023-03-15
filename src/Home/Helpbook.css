@@ -110,11 +110,11 @@
 
 @media (max-width: 768px) {
   .help-book {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .help-book h1 {
-    font-size: 35px;
+    font-size: 29px;
   }
 
   .help-book img {
@@ -122,7 +122,7 @@
   }
 
   .help-book h3{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .help-book img {
@@ -140,7 +140,7 @@
   }
 
   .help a {
-    font-size: 25px;
+    font-size: 18px;
   }
   
   .book {
@@ -157,6 +157,6 @@
   }
 
   .signature {
-    font-size: 18px;
+    font-size: 15px;
   }
 }

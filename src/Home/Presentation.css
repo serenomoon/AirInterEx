@@ -436,10 +436,6 @@ margin-top: -17px;
   margin-top: 20px;
 }
 
-/* .passengers div{
-  margin: auto;
-} */
-
 .passengers-title {
   display: flex;
   justify-content: center;
@@ -826,7 +822,7 @@ margin-top: -17px;
   }
 
   .passengers-title div:last-child {
-    font-size: 8px;
+    display: none;
   }
 
   .passengers-select button {

@@ -105,7 +105,7 @@ export const Presentation = () => {
                         <ul className='fastbuy-radio'>
                             <li><input type="radio"/>Return Trip</li>
                             <li><input type="radio"/>One-way trip</li>
-                            <li>Book a multistop trop<i className="fa-solid fa-circle-info"></i></li>
+                            <li>Book a multistop trop <i className="fa-solid fa-circle-info"></i></li>
                         </ul>
                     </div>
 
@@ -151,7 +151,7 @@ export const Presentation = () => {
                         </div>
                     </div>
                     
-                    <div className='childalone-check'><input type='checkbox'/>Book a child travelling alone</div>
+                    <div className='childalone-check'><input type='checkbox'/><p>Book a child travelling alone</p></div>
                     
                     <div className='service-promo'>
                         <div>
