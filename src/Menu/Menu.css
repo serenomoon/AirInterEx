@@ -162,7 +162,7 @@
 }
 
  /* 1200 */
- @media (max-width: 1200px) and (min-width:1025px){
+@media (max-width: 1200px) and (min-width:1025px){
   .menu {
     font-size: 1rem;
   }
@@ -290,67 +290,66 @@
     white-space: nowrap;
 }
 
-
   .secondmenu a {
     padding-right: 10px;
   }
- }
+}
 
- /* 768 */
- @media (max-width: 768px) and (min-width:481px) {
+/* 768 */
+@media (max-width: 768px) {
 
-    .menu {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      height: 93px;
-      padding: 10px 10px;
-      position: relative;
-    }
+  .menu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 93px;
+    padding: 10px 10px;
+    position: relative;
+  }
 
-    .airspan {
-      display: none;
-    }
+  .airspan {
+    display: none;
+  }
 
-    .logo {
-      justify-content: center;
-      padding: 0;
-    }
+  .logo {
+    justify-content: center;
+    padding: 0;
+  }
 
-    .airlogo {
-      width: 45px;
-      height: 45px;
-      margin: 0;
-    }
+  .airlogo {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+  }
 
-    .firstmenu {
-      order: 3;
-      grid-column: 1/4;
-      margin: 0;
-    }
+  .firstmenu {
+    order: 3;
+    grid-column: 1/4;
+    margin: 0;
+  }
 
-    .firstli:hover {
-      border-bottom: none;    
-    }
+  .firstli:hover {
+    border-bottom: none;    
+  }
 
-    .firstli a:hover {
-      color: white
-    }
+  .firstli a:hover {
+    color: white
+  }
 
-    .firstmenu li:hover .dropdown {
-      display: none;
-    }
+  .firstmenu li:hover .dropdown {
+    display: none;
+  }
 
 
-    .searchbar {
-      display: none;
-    }
+  .searchbar {
+    display: none;
+  }
 
-    .secondmenu {
-      display: none;
-    }
+  .secondmenu {
+    display: none;
+  }
 
-    .secondmenu-signin {
-      display: flex;
-    }
+  .secondmenu-signin {
+    display: flex;
+  }
     
- }
+}
