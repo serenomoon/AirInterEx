@@ -496,13 +496,14 @@ margin-top: -17px;
   font-size: 18px;
 }
 
-.childalone-check {
-  margin: auto 0;
-}
-
 .childalone-check input {
+  margin: auto 0;
   margin-right: 10px;
   width: 18px;
+}
+
+.childalone-check p {
+  margin: auto 0;
 }
 
 
