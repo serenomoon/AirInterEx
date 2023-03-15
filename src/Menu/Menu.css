@@ -132,6 +132,7 @@
     background: black;
     color: white;
     cursor: pointer;
+    border: none;
 }
 
 .secondmenu {
