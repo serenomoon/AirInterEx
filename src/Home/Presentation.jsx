@@ -122,6 +122,7 @@ export const Presentation = () => {
                         <div>
                             <div className='passengers-title' style={{fontWeight:'bold'}}>
                                 <div>Adults</div>
+                                <div></div>
                             </div>
                             <div className='passengers-select'>
                                 <button><i class="fa fa-minus" aria-hidden="true"></i></button>

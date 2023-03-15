@@ -26,9 +26,8 @@ body {
 .astronaut {
   position: fixed;
   bottom: 10px;
-  left: 78%;
+  right: 2%;
   width: max-content;
-  padding-right: 30px;
 }
 
 .astronaut a {
@@ -89,8 +88,14 @@ li {
 }
 
 
+@media (max-width: 1024px) and (min-width:769px){}
+
 @media (max-width: 768px) {
   .container {
     overflow-x: hidden;
+  }
+
+  .astronaut {
+    display: none;
   }
 }

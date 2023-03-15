@@ -158,6 +158,7 @@
   color: white;
   background-color: rgb(219, 88, 36);
   border-radius: 7px;
+  border: none;
 }
 
 .fromto button:hover {
@@ -434,6 +435,10 @@ margin-top: -17px;
   grid-template-columns: 33% 33% 33%;
   margin-top: 20px;
 }
+
+/* .passengers div{
+  margin: auto;
+} */
 
 .passengers-title {
   display: flex;
@@ -773,13 +778,13 @@ margin-top: -17px;
     grid-template-rows: auto auto;
     grid-template-columns: auto;
     text-align: left;
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .fromto input{
     width: 95%;
     margin-bottom: 15px;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .fromto button {
@@ -787,12 +792,16 @@ margin-top: -17px;
     margin-top: 17px;
   }
 
+  .fastbuy-radio {
+    font-size: 15px;
+  }
+
   .travel-dates div {
     font-size: 13px;
   }
 
   .containerForm input{
-    width: 160px;
+    width: 130px;
     height: 20px;
     font-size: 13px;
   }
@@ -812,14 +821,18 @@ margin-top: -17px;
     padding: .3em;
   }
 
-  .passengers-title {
+  .passengers-title div{
     font-size: 13px;
+  }
+
+  .passengers-title div:last-child {
+    font-size: 8px;
   }
 
   .passengers-select button {
     width: 30px;
     height: 30px;
-    margin: auto 10px;
+    margin: auto 5px;
   }
 
   .passengers-number {
