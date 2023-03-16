@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import AirLogoWhite from '../assets/logo-viaje-w.png';;
+import AirLogoWhite from '../../../assets/logo-viaje-w.png';;
 import './Foot.css';
 
 export const Foot = () => {
@@ -37,10 +37,10 @@ export const Foot = () => {
 
         <div className='foot-info'>
             <div className='foot-media'>
-                <Link to='#'><i class="fa fa-facebook-square" aria-hidden="true"></i></Link>
-                <Link to='#'><i class="fa fa-instagram" aria-hidden="true"></i></Link>
-                <Link to='#'><i class="fa fa-twitter-square" aria-hidden="true"></i></Link>
-                <Link to='#'><i class="fa fa-youtube-play" aria-hidden="true"></i></Link>
+                <Link to='#'><i className="fa fa-facebook-square" aria-hidden="true"></i></Link>
+                <Link to='#'><i className="fa fa-instagram" aria-hidden="true"></i></Link>
+                <Link to='#'><i className="fa fa-twitter-square" aria-hidden="true"></i></Link>
+                <Link to='#'><i className="fa fa-youtube-play" aria-hidden="true"></i></Link>
             </div>
             <p>A GALAXY ALLIANCE MEMBER</p>
             <p>Copyright © 2023 Air Inter Ex Limited</p>

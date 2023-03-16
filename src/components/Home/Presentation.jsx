@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { datepicker } from '../js/datepicker';
+import { datepicker } from '../../js/datepicker';
 import './Presentation.css';
 
 export const Presentation = () => {
@@ -9,7 +9,6 @@ export const Presentation = () => {
 
     useEffect(() => {
         datepicker();
-        console.log("a")
       }, [])
     
       
@@ -125,9 +124,9 @@ export const Presentation = () => {
                                 <div></div>
                             </div>
                             <div className='passengers-select'>
-                                <button><i class="fa fa-minus" aria-hidden="true"></i></button>
+                                <button><i className="fa fa-minus" aria-hidden="true"></i></button>
                                 <div className='passengers-number'>1</div>     
-                                <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i></button>
                             </div>
                         </div>
                         <div>
@@ -136,17 +135,17 @@ export const Presentation = () => {
                                 <div style={{fontWeight:'100', color:'grey'}}>2-11 years old</div>
                             </div>
                             <div className='passengers-select'>
-                                <button><i class="fa fa-minus" aria-hidden="true"></i></button>
+                                <button><i className="fa fa-minus" aria-hidden="true"></i></button>
                                 <div className='passengers-number'>0</div>  
-                                <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i></button>
                             </div>
                         </div>
                         <div>
                             <div className='passengers-title' style={{fontWeight:'bold'}}>Infants<div style={{fontWeight:'100', color:'grey'}}>0-23 months old</div></div>
                             <div className='passengers-select'>
-                                <button><i class="fa fa-minus" aria-hidden="true"></i></button>
+                                <button><i className="fa fa-minus" aria-hidden="true"></i></button>
                                 <div className='passengers-number'>0</div>    
-                                <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>

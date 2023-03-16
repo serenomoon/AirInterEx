@@ -4,18 +4,15 @@ export const Firstmenu = () => {
   return (
     <ul className='firstmenu'>
           <li className='firstli'>
-            <Link to='#'>Plan</Link>
+            <Link to='plan'>Plan</Link>
             <ul className="dropdown">
               <div className='droprelative'>
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
-                    <li><Link to='#'>Destination</Link></li>
+                    <li><Link to='destination'>Destination</Link></li>
                     <li><Link to='#'>Earth</Link></li>
                     <li><Link to='#'>Mars</Link></li>
                     <li><Link to='#'>Europa</Link></li>
-                    <ul>
-                      <li><Link to='#'>Where We Fly</Link></li>
-                    </ul>
                   </div>
                 </div>
 
@@ -27,11 +24,6 @@ export const Firstmenu = () => {
                     <li><Link to='#'>7-Day North Island Highlights</Link></li>
                     <li><Link to='#'>Winter Guide to New Zealand</Link></li>
                     <li><Link to='#'>Discover the 8th wonder</Link></li>
-                    <ul>
-                      <li><Link to='#'>Corporate Travel</Link></li>
-                      <li><Link to='#'>Large Companies</Link></li>
-                      <li><Link to='#'>Small-Medium Companies</Link></li>
-                    </ul>
                   </div>
                 </div>
 
@@ -66,6 +58,20 @@ export const Firstmenu = () => {
                     <li><Link to='#'>Travel within New Zealand</Link></li>
                     <li><Link to='#'>International travel requirements</Link></li>
                     <li><Link to='#'>Pre-departure testing</Link></li>
+                  </div>
+                </div>
+
+                <div className='dropdown-back'>
+                  <div className='dropdown-child'>
+                    <li><Link to='#'>Where We Fly</Link></li>
+                  </div>
+                </div>
+
+                <div className='dropdown-back'>
+                  <div className='dropdown-child'>
+                    <li><Link to='#'>Corporate Travel</Link></li>
+                    <li><Link to='#'>Large Companies</Link></li>
+                    <li><Link to='#'>Small-Medium Companies</Link></li>
                   </div>
                 </div>
               </div>

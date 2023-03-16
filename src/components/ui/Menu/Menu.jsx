@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import AirLogoWhite from '../assets/logo-viaje-w.png';
+import AirLogoWhite from '../../../assets/logo-viaje-w.png';
 import { Firstmenu } from './Firstmenu';
 import './Menu.css';
 import { Menubar } from './Menubar';
@@ -12,10 +12,10 @@ export const Menu = () => {
          
         <Menubar />
 
-        <div className='logo'>
-          <div className='airspan'>AIR INTER EX</div>
-          <img className='airlogo' src={ AirLogoWhite } />
-        </div>
+        <Link to='/' className='logo'>
+            <div className='airspan'>AIR INTER EX</div>
+            <img className='airlogo' src={ AirLogoWhite } />
+        </Link>
 
         <Firstmenu />
 

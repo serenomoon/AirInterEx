@@ -1,0 +1,57 @@
+.plan-title {
+    text-align: left;
+    padding: 0 15%;
+    padding-top: 30px;
+}
+
+.plan-title h1 {
+    font-size: 50px;
+}
+
+.plan-title p {
+    font-size: 23px;
+}
+
+.plan-explore-all {
+    margin: 0 70px;
+}
+
+.plan-explore-all h2 {
+    text-align: left;
+    font-size: 27px;
+}
+
+.plan-explore {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.plan-explore-u {
+    width: 100%;
+}
+
+.plan-explore-u img {
+    height: 80%;
+    width: 100%;
+}
+
+.plan-explore-u h4 {
+    text-align: left;
+    font-size: 23px;
+    margin: 0;
+}
+
+.plan-explore-u a {
+    display: flex;
+    color: rgb(219, 88, 36);
+    font-size: 18px;
+    /* float: left; */
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.plan-explore-u a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
