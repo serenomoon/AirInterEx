@@ -27,7 +27,9 @@ export const Menubar = () => {
           :<i className="fa fa-times" aria-hidden="true" style={{marginRight:'5px'}}></i>
         }
         </button>
-      <MenubarOpen />
+      <MenubarOpen 
+        setMenuButton = { setMenuButton }
+      />
     </div>
   )
 }

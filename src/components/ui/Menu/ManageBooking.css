@@ -1,0 +1,141 @@
+.managebooking {
+    display: none;
+}
+
+.managebooking-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+}
+
+.managebooking-content-x {
+    display: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.menu .managebooking-content {
+    z-index: 1;
+    position: absolute;
+    top:92px;
+    right: 0;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    box-shadow: 0px -0.5px grey;
+    width: 23vw;
+    white-space: normal;
+}
+
+.managebooking-content h1 {
+    margin-top: 0;
+    font-size: 27px;
+}
+
+.managebooking-content p {
+    font-size: 15px;
+}
+
+.managebooking-inputs-u {
+    margin: 20px 0;
+}
+
+.managebooking-inputs-p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.managebooking-inputs-p p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.managebooking-inputs-p i{
+    margin: auto 0;
+    color: rgb(219, 88, 36);
+}
+
+.managebooking-inputs input {
+    width: 92%;
+    background-color: transparent;
+    font-size: 17px;
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 11px;
+}
+
+.managebooking-inputs input:focus-within{
+    outline: 1px solid rgb(219, 88, 36);
+    border: 1px solid transparent;
+}
+
+.managebooking-content button {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(219, 88, 36);
+    border-radius: 3px;
+    border: none;
+    padding: 12px 19px;
+}
+  
+.managebooking-content button:hover {
+    background-color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
+
+.managebooking-foot {
+    margin-top: 50px;
+}
+
+
+.managebooking-foot a {
+    color: rgb(219, 88, 36);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.managebooking-foot a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
+
+@media (max-width: 1200px) and (min-width:1025px){
+
+    
+
+}
+
+@media (max-width: 1024px) and (min-width:769px){
+
+    .menu .managebooking-content {
+        top:100px;
+        width: 32vw;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .managebooking-block {
+        display: none;
+    }
+
+    .managebooking-content-x {
+        display: flex;
+        justify-content: end;
+    }
+
+    .menu .managebooking-content {
+        top:0;
+        left: 0;
+        width:fit-content;
+    }
+
+}

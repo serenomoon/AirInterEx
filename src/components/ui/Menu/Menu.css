@@ -141,10 +141,17 @@
     display: flex;
     color: rgb(219, 88, 36);
     justify-content: flex-end;
+    /* position: relative; */
+}
+
+.secondmenu li {
+  cursor: pointer;
+  padding-right: 10px;
+  color: rgb(219, 88, 36);
 }
 
 .secondmenu a {
-  padding-right: 20px;
+  padding-right: 10px;
   color: rgb(219, 88, 36);
 }
 

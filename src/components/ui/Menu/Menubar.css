@@ -43,6 +43,10 @@
 
         transition: ease width 0.3s;
     }
+
+    .menubar .dropdown{
+      box-shadow: none;
+  }
     
 
     .menubar .searchbar {
@@ -72,6 +76,12 @@
       display: block;
     }
 
+    .menubar .secondmenu li {
+      display: block;
+      text-align: start;
+      margin: 10px 0;
+    }
+
     .menubar .secondmenu a {
       display: block;
       text-align: start;
@@ -81,6 +91,7 @@
     .menubar .firstmenu {
       display: block;
       text-align: start;
+      padding-left: 10px;
       margin: 10px 0;
     }
 
