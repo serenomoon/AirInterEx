@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Menubar.css';
 import { MenubarOpen } from './MenubarOpen';
 
-export const Menubar = () => {
+export const Menubar = ({ showPopup }) => {
 
   const [menuButton, setMenuButton] = useState(true)
 
@@ -27,8 +27,9 @@ export const Menubar = () => {
           :<i className="fa fa-times" aria-hidden="true" style={{marginRight:'5px'}}></i>
         }
         </button>
-      <MenubarOpen 
-        setMenuButton = { setMenuButton }
+      <MenubarOpen
+        openMenu = { openMenu }
+        showPopup = { showPopup }
       />
     </div>
   )

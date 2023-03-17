@@ -1,5 +1,9 @@
 .managebooking {
     display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 
 .managebooking-block {
@@ -18,7 +22,6 @@
 }
 
 .menu .managebooking-content {
-    z-index: 1;
     position: absolute;
     top:92px;
     right: 0;
@@ -29,6 +32,7 @@
     box-shadow: 0px -0.5px grey;
     width: 23vw;
     white-space: normal;
+    z-index: 2;
 }
 
 .managebooking-content h1 {
@@ -133,9 +137,9 @@
     }
 
     .menu .managebooking-content {
-        top:0;
+        top:71px;
         left: 0;
-        width:fit-content;
+        width: fit-content;
     }
 
 }
