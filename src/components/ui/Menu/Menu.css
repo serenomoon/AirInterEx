@@ -141,7 +141,8 @@
     display: flex;
     color: rgb(219, 88, 36);
     justify-content: flex-end;
-    /* position: relative; */
+    height: 100%;
+    padding-top: 23px;
 }
 
 .secondmenu li {
@@ -216,11 +217,14 @@
 
   .secondmenu {
     margin: auto 5px;
+    padding-top: 0;
+    height: auto;
   }
 
   .secondmenu a {
     padding-right: 10px;
   }
+
  }
 
 /* 1024 */
@@ -297,6 +301,8 @@
     padding-bottom: 10px;
     font-size: 17px;
     white-space: nowrap;
+    padding-top: 0;
+    height: auto;
 }
 
 
@@ -356,6 +362,8 @@
 
   .secondmenu {
     display: none;
+    padding-top: 0;
+    height: auto;
   }
 
   .secondmenu-signin {

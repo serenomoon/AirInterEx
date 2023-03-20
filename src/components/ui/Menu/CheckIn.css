@@ -138,8 +138,8 @@
 
     .menu .managebooking-content {
         top:71px;
-        margin: 0;
-        width: auto !important;
+        left: 0;
+        width: fit-content;
     }
 
 }

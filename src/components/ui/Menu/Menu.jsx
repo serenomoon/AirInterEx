@@ -6,18 +6,22 @@ import { Menubar } from './Menubar';
 import { Searchbar } from './Searchbar';
 import { Secondmenu } from './Secondmenu';
 import AirLogoWhite from '../../../assets/logo-viaje-w.png';
+import { CheckIn } from './CheckIn';
 import './Menu.css';
 
 export const Menu = () => {
-
+  
   const manabooref = useRef(null);
+  const checkinref = useRef(null);
 
-  const showPopup = () => {
-    manabooref.current.style.display = "block";
+  const showPopup = (e) => {
+    e.target.id === 'manabook' ? manabooref.current.style.display = "block" : '',
+    e.target.id === 'checkin' ? checkinref.current.style.display = "block" : ''
   }
 
   const hidePopup = () => {
     manabooref.current.style.display = "none";
+    checkinref.current.style.display = "none";
   }
 
   return (
@@ -45,8 +49,13 @@ export const Menu = () => {
           hidepopup = { hidePopup }
         />
         
+        <CheckIn 
+          checkinref = { checkinref }
+          hidepopup = { hidePopup }
+        />
+
         <nav className='secondmenu-signin'>
-          <Link to='#'>Sign In</Link>
+          <Link to='signin'>Sign In</Link>
         </nav>
 
       </div>
