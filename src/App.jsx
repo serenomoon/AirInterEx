@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { AppRouter } from './routers/AppRouter';
 import './App.css';
 
@@ -6,8 +6,8 @@ export const App = () => {
   
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppRouter />
-    </BrowserRouter>
+    </HashRouter>
   )
 }

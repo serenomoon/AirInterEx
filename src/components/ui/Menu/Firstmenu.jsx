@@ -4,12 +4,12 @@ export const Firstmenu = () => {
   return (
     <ul className='firstmenu'>
           <li className='firstli'>
-            <Link to='plan'>Plan</Link>
+            <Link to='/plan'>Plan</Link>
             <ul className="dropdown">
               <div className='droprelative'>
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
-                    <li><Link to='destination'>Destination</Link></li>
+                    <li><Link to='/plan/destination'>Destination</Link></li>
                     <li><Link to='#'>Earth</Link></li>
                     <li><Link to='#'>Mars</Link></li>
                     <li><Link to='#'>Europa</Link></li>

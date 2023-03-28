@@ -4,10 +4,12 @@
 }
 
 .signup-hr {
-    width: 85%;
+    width: 90%;
+    margin: 0 10%;
     height: 1px;
     background-color: rgba(128, 128, 128, 0.575);
-    float: right;
+    display: grid;
+    justify-content: left;
 }
 
 .signup-in {

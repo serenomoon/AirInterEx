@@ -1,0 +1,64 @@
+
+.destinyplace-title {
+    text-align: left;
+    padding: 30px 15%;
+}
+
+.destinyplace-title h1 {
+    font-size: 50px;
+}
+
+.destinyplace-title h5 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.destinyplace-title p {
+    font-size: 17px;
+}
+
+.destinyplace-explore-all {
+    margin: 0 70px 120px;
+}
+
+
+.destinyplace-explore {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+
+.destinyplace-explore-u {
+    width: 100%;
+}
+
+.destinyplace-explore-u img {
+    height: 60%;
+    width: 100%;
+}
+
+.destinyplace-explore-u h4 {
+    text-align: left;
+    font-size: 23px;
+    margin: 0;
+}
+
+.destinyplace-explore-u p {
+    text-align: left;
+    font-size: 17px;
+    margin: 0;
+}
+
+.destinyplace-explore-u a {
+    display: flex;
+    color: rgb(219, 88, 36);
+    font-size: 18px;
+    /* float: left; */
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.destinyplace-explore-u a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}

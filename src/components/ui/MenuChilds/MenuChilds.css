@@ -1,0 +1,36 @@
+.menuchilds-extra {
+    background-color: white;
+}
+
+.menuchilds {
+    padding: 0 5px;
+    background-color: white;
+    height: 52px;
+}
+
+.menuchilds-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menuchilds ul {
+    display: flex;
+    margin: 0 0 3px;
+}
+
+.menuchilds a {
+    margin: auto 10px;
+    color: black;
+    font-size: 17px;
+    padding: 15px 0;
+}
+
+.menuchilds a:first-of-type {
+    font-weight: bold;
+}
+
+.menuchilds a:nth-child(2) {
+    color: rgb(219, 88, 36);
+    box-shadow: 0 2.5px 0 0 rgb(219, 88, 36);
+}
