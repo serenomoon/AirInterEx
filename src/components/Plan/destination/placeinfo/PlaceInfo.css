@@ -48,15 +48,41 @@
     font-weight: bold;
 }
 
-.placeinfo-title p {
-    font-size: 17px;
-}
-
 .placeinfo-info p {
     text-align: left;
     font-size: 17px;
     line-height: 25px;
     margin: 10px 25% 30px 12%;
+}
+
+.placeinfo-info a {
+    color: rgb(219, 88, 36);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.placeinfo-info a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
+
+.placeinfo-info ol {
+    margin: 10px 25% 30px 12%;
+    text-align: left;
+}
+
+.placeinfo-info ol li{
+    padding-left: 13px;
+    margin-bottom: 20px;
+}
+
+.placeinfo-info ol p {
+    margin: 0;
+}
+
+.placeinfo-info ol h5 {
+    font-size: 17px;
+    margin: 0;
 }
 
 .placeinfo-info-img {
@@ -91,3 +117,191 @@
     border-left: 2px solid rgba(0, 0, 0, 0.63);
 }
 
+/* CARROUSEL */
+.carrousel-div h2{
+    text-align: left;
+    margin: 10px 135px;
+    font-size: 28px;
+}
+
+.placeinfo-carrousel {
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    height: 330px;
+    width: 330px;
+    position: relative;
+    overflow: hidden;
+}
+
+.placeinfo-carrousel div {
+    position: absolute;
+    margin: auto 0;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    text-align: left;
+    letter-spacing: 3px;
+    bottom: 80px;
+    left: 18px;
+}
+
+.placeinfo-carrousel img {
+    height: 100%;
+    width: 100%;
+    transition: 0.2s all ease-in-out;
+}
+  
+.placeinfo-carrousel:hover img {
+    transform: scale(1.08);
+    filter: brightness(70%);
+}
+
+.placeinfo-carrousel h4 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.placeinfo-carrousel p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.placeinfo-carrousel hr {
+    width: 60%;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.placeinfo-carrousel-first {
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: auto 0;
+    line-height: 280px;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center !important;
+    bottom: 25px !important;
+    left: 25px !important;
+}
+
+
+.placeinfo-essentialinfo {
+    margin: 0 10% 0 12%;
+    text-align: left;
+}
+
+.placeinfo-essentialinfo h1 {
+    font-size: 26px;
+}
+
+.placeinfo-essentialinfo-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 60px;
+}
+
+.placeinfo-essentialinfo-grid div {
+    margin: 0;
+    padding: 0;
+}
+
+.placeinfo-essentialinfo-grid img{
+    margin: 5px 20px 0 0;
+}
+
+.placeinfo-essentialinfo-grid h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.placeinfo-essentialinfo-grid p {
+    margin: 0;
+    padding: 0;
+}
+
+.placeinfo-flights {
+    margin: 0 5%;
+    text-align: left;
+}
+
+.placeinfo-flights h1 {
+    font-size: 26px;
+}
+
+.placeinfo-flights table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+  
+.placeinfo-flights tr:first-of-type {
+    border-bottom: 2px solid black;
+}
+
+.placeinfo-flights td, th {
+    text-align: left;
+    padding: 8px;
+}
+  
+.placeinfo-flights tr:nth-child(even) {
+    background-color: #dddddd;
+} 
+
+.placeinfo-flights p {
+    color: grey;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.placeinfo-seats {
+    margin: 80px 5%;
+}
+
+.placeinfo-seats-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.placeinfo-seats-grid div {
+    width: 270px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.placeinfo-seats-grid img {
+    width: 100%;
+    height: 14vw;
+    object-fit: cover;
+}
+
+.placeinfo-seats-grid h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.placeinfo-seats-grid a {
+    color: rgb(219, 88, 36);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.placeinfo-seats-grid a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
+
+.placeinfo-greyfooter {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    margin: 70px 5% 30px;
+    text-align: left;
+}

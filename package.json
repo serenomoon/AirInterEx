@@ -13,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-responsive": "^9.0.2",
     "react-router-dom": "^6.8.1",
+    "react-simply-carousel": "^8.5.5",
     "router": "^1.3.7"
   },
   "devDependencies": {
