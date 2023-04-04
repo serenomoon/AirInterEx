@@ -23,20 +23,20 @@ export const Destination = () => {
             <div className='destination-explore'>
               <div className='destination-explore-u'>
                 <img src='https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA23872.jpg'/>
-                <h4>Crisscrossing Bands</h4>
-                <Link to='/plan/destination/destinyplace'>Explore Crisscrossing Bands</Link>
+                <h4>Europa</h4>
+                <Link to='/plan/destination/destinyplace'>Explore Europa</Link>
               </div>
 
               <div className='destination-explore-u'>
                 <img src='https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/111280main_image_feature_291_ys_full.jpg'/>
-                <h4>Columbia Hills</h4>
-                <Link to='/plan/destination/destinyplace'>Explore Columbia Hills</Link>
+                <h4>Mars</h4>
+                <Link to='/plan/destination/destinyplace'>Explore Mars</Link>
               </div>
 
               <div className='destination-explore-u'>
                 <img src='https://www.planetware.com/photos-large/ARG/argentina-top-attractions-iguazu-falls.jpg'/>
-                <h4>Argentina</h4>
-                <Link to='/plan/destination/destinyplace'>Explore Argentina</Link>
+                <h4>Earth</h4>
+                <Link to='/plan/destination/destinyplace'>Explore Earth</Link>
               </div>
             </div>
           </div>

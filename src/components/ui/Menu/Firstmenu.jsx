@@ -10,26 +10,26 @@ export const Firstmenu = () => {
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
                     <li><Link to='/plan/destination'>Destination</Link></li>
-                    <li><Link to='#'>Earth</Link></li>
-                    <li><Link to='#'>Mars</Link></li>
-                    <li><Link to='#'>Europa</Link></li>
+                    <li><Link to='/plan/destination/destinyplace'>Earth</Link></li>
+                    <li><Link to='/plan/destination/destinyplace'>Mars</Link></li>
+                    <li><Link to='/plan/destination/destinyplace'>Europa</Link></li>
                   </div>
                 </div>
 
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
-                    <li><Link to='#'>Trip ideas</Link></li>
-                    <li><Link to='#'>Explore NZ in 10 days</Link></li>
-                    <li><Link to='#'>7-Day South island Autumn Itinerary</Link></li>
-                    <li><Link to='#'>7-Day North Island Highlights</Link></li>
-                    <li><Link to='#'>Winter Guide to New Zealand</Link></li>
-                    <li><Link to='#'>Discover the 8th wonder</Link></li>
+                    <li><Link to='/plan/trip-ideas'>Trip ideas</Link></li>
+                    <li><Link to='/plan/destination/destinyplace/placeinfo'>7-day winter guide to Earth</Link></li>
+                    <li><Link to='/plan/destination/destinyplace/placeinfo'>7-Day Mars Itinerary</Link></li>
+                    <li><Link to='/plan/destination/destinyplace/placeinfo'>7-Day Europa Highlights</Link></li>
+                    <li><Link to='/plan/destination/destinyplace/placeinfo'>Nature Earth's Wildlife</Link></li>
+                    <li><Link to='/plan/destination/destinyplace/placeinfo'>Stargazing in Europa</Link></li>
                   </div>
                 </div>
 
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
-                    <li><Link to='#'>Baggage</Link></li>
+                    <li><Link to='/plan/baggage'>Baggage</Link></li>
                     <li><Link to='#'>Carry-on bags</Link></li>
                     <li><Link to='#'>Checked-in baggage</Link></li>
                     <li><Link to='#'>Excess baggage</Link></li>

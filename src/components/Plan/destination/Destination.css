@@ -56,7 +56,6 @@
     display: flex;
     color: rgb(219, 88, 36);
     font-size: 18px;
-    /* float: left; */
     text-decoration: underline;
     text-underline-offset: 5px;
 }

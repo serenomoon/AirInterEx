@@ -1,0 +1,62 @@
+
+.tripideas-title {
+    text-align: left;
+    padding: 30px 15%;
+}
+
+.tripideas-title h1 {
+    font-size: 50px;
+}
+
+.tripideas-title h5 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.tripideas-explore-all {
+    margin: 0 70px 50px;
+}
+
+.tripideas-explore-all p {
+    text-align: left;
+    color: gray;
+    font-size: 13px;
+    margin-top: 70px;
+    padding: 0;
+}
+
+
+.tripideas-explore {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+}
+
+.tripideas-explore-u {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tripideas-explore-u img {
+    height: 260px;
+    width: 100%;
+}
+
+.tripideas-explore-u h4 {
+    text-align: left;
+    font-size: 23px;
+    margin: 0;
+}
+
+.tripideas-explore-u a {
+    display: flex;
+    color: rgb(219, 88, 36);
+    font-size: 17px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.tripideas-explore-u a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}

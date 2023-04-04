@@ -21,12 +21,12 @@ export const Plan = () => {
             <div className='plan-explore'>
                 <div className='plan-explore-u'>
                     <img src='https://www.savacations.com/wp-content/uploads/2019/08/Best-Places-to-Visit-in-Argentina-Buenos-Aires2.jpg'/>
-                    <h4>Discover more of Argentina</h4>
+                    <h4>Discover more of Earth</h4>
                     <Link to='/plan/destination/destinyplace'>Explore</Link>
                 </div>
                 <div className='plan-explore-u'>
-                    <img src='https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e9/64/6b/plaza-general-manuel.jpg?w=700&h=500&s=1'/>
-                    <h4>Discover more of Burzaco</h4>
+                    <img src='https://arquitecturaviva.com/assets/uploads/obras/44470/av_imagen.jpeg?h=41aaf99a'/>
+                    <h4>Discover more of Mars</h4>
                     <Link to='/plan/destination/destinyplace'>Explore</Link>
                 </div>
             </div>
