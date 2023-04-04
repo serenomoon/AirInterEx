@@ -12,7 +12,7 @@ export const Baggage = () => {
         <MenuChilds />
 
         <div>
-            <div className='bagagge'>
+            <div className='baggage'>
                 <h1>Baggage</h1>
                 <h5>Travelling light, or with a little extra? Everything you need to know about baggage is outlined below.</h5>
                 <p>How much you can bring, and what to do if you need more? Get the answers to all your baggage questions, including how many you're allowed, what not to pack, oversized baggage and other important queries below.</p>
@@ -44,10 +44,10 @@ export const Baggage = () => {
               </div>
             </div>
 
-            <div className='bagagge'>
-              <div className='bagagge-list-all'>
+            <div className='baggage'>
+              <div className='baggage-list-all'>
                 
-                <div className='bagagge-list'>
+                <div className='baggage-list'>
                   <div>
                     <img src='https://p-airnz.com/cms/assets/Common-Assets/Icons/air-new-zealand-icon-two-bags-100x100__ScaleMaxWidthWzkwXQ.png'/>
                   </div>
@@ -63,7 +63,7 @@ export const Baggage = () => {
                   </div>
                 </div>
 
-                <div className='bagagge-list'>
+                <div className='baggage-list'>
                   <div>
                     <img src='https://p-airnz.com/cms/assets/Common-Assets/Icons/air-new-zealand-icon-bike-100x100__ScaleMaxWidthWzkwXQ.png'/>
                   </div>
@@ -78,7 +78,7 @@ export const Baggage = () => {
                   </div>
                 </div>
 
-                <div className='bagagge-list'>
+                <div className='baggage-list'>
                   <div>
                     <img src='https://p-airnz.com/cms/assets/Common-Assets/Icons/air-new-zealand-icon-restricted-100x100__ScaleMaxWidthWzkwXQ.png'/>
                   </div>
@@ -96,7 +96,7 @@ export const Baggage = () => {
                   </div>
                 </div>
 
-                <div className='bagagge-list'>
+                <div className='baggage-list'>
                   <div>
                     <img src='https://p-airnz.com/cms/assets/Common-Assets/Icons/air-new-zealand-icon-kids-100x100__ScaleMaxWidthWzkwXQ.png'/>
                   </div>

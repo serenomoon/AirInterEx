@@ -1,0 +1,74 @@
+
+.arrindep {
+    text-align: left;
+    padding: 30px 15%;
+}
+
+.arrindep h1 {
+    font-size: 50px;
+}
+
+.arrindep p {
+    font-size: 17px;
+}
+
+.arrindep a {
+    color: rgb(219, 88, 36);
+    font-size: 17px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.arrindep a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
+
+.arrindep-check {
+    background-color: rgb(226, 226, 226);
+    margin: 0 5%;
+    padding: 20px 50px 50px;
+}
+
+.arrindep-check h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.arrindep-check-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrindep-check-child div {
+    margin: auto 0;
+}
+
+
+.arrindep-check-child select {
+    font-size: 17px;
+    padding: 10px 5px;
+}
+
+.arrindep-check-child select:focus {
+    border-color: rgb(219, 88, 36);
+}
+
+.arrindep-check button {
+    border: 0;
+    cursor: pointer;
+    padding: 12px 30px;
+    margin: auto 0;
+    white-space: nowrap;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(219, 88, 36);
+    border-radius: 5px;
+}
+
+.arrindep-check button:hover {
+    background-color: rgb(163, 64, 25);
+    transition: 0.3s;
+}

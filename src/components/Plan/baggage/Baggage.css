@@ -1,19 +1,19 @@
 
-.bagagge {
+.baggage {
     text-align: left;
     padding: 30px 15%;
 }
 
-.bagagge h1 {
+.baggage h1 {
     font-size: 50px;
 }
 
-.bagagge h5 {
+.baggage h5 {
     font-size: 23px;
     font-weight: 500;
 }
 
-.bagagge p {
+.baggage p {
     font-size: 17px;
 }
 
@@ -97,41 +97,41 @@
     object-fit: cover;
 }
 
-.bagagge-list-all {
+.baggage-list-all {
     border-top: 1px solid rgba(128, 128, 128, 0.247);
     margin-top: 20px;
     padding-top: 20px;
 }
 
-.bagagge-list {
+.baggage-list {
     display: grid;
     grid-template-columns: auto auto;
     margin-bottom: 50px;
 }
 
-.bagagge-list ul {
+.baggage-list ul {
     list-style-type: disc;
 }
 
-.bagagge-list img {
+.baggage-list img {
     margin-top: 10px;
 }
 
-.bagagge-list div:last-child {
+.baggage-list div:last-child {
     padding-left: 20px;
 }
 
-.bagagge-list h5 {
+.baggage-list h5 {
     font-size: 28px;
     margin: 0;
 }
 
-.bagagge-list p {
+.baggage-list p {
     font-size: 17px;
     margin: 10px 0;
 }
 
-.bagagge-list a {
+.baggage-list a {
     color: rgb(219, 88, 36);
     font-size: 17px;
     text-decoration: underline;
@@ -140,7 +140,7 @@
     padding: 0;
 }
 
-.bagagge-list a:hover {
+.baggage-list a:hover {
     color: rgb(163, 64, 25);
     transition: 0.3s;
 }

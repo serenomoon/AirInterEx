@@ -30,25 +30,25 @@ export const Firstmenu = () => {
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
                     <li><Link to='/plan/baggage'>Baggage</Link></li>
-                    <li><Link to='#'>Carry-on bags</Link></li>
-                    <li><Link to='#'>Checked-in baggage</Link></li>
-                    <li><Link to='#'>Excess baggage</Link></li>
-                    <li><Link to='#'>Add extra bags</Link></li>
-                    <li><Link to='#'>Baggage help</Link></li>
-                    <li><Link to='#'>Baggage Services</Link></li>
+                    <li><Link to='/plan/baggage'>Carry-on bags</Link></li>
+                    <li><Link to='/plan/baggage'>Checked-in baggage</Link></li>
+                    <li><Link to='/plan/baggage'>Excess baggage</Link></li>
+                    <li><Link to='/plan/baggage'>Add extra bags</Link></li>
+                    <li><Link to='/plan/baggage'>Baggage help</Link></li>
+                    <li><Link to='/plan/baggage'>Baggage Services</Link></li>
                   </div>
                 </div>
 
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
-                    <li><Link to='#'>Flight Information</Link></li>
-                    <li><Link to='#'>Arrivals and departures</Link></li>
-                    <li><Link to='#'>Arrivals and Departures Information</Link></li>
-                    <li><Link to='#'>Flight Timetables</Link></li>
-                    <li><Link to='#'>Airport maps & connections</Link></li>
-                    <li><Link to='#'>Travel alerts</Link></li>
-                    <li><Link to='#'>Customer Service & Tarmac Delay Plan</Link></li>
-                    <li><Link to='#'>Special assistance</Link></li>
+                    <li><Link to='/plan/flight-information'>Flight Information</Link></li>
+                    <li><Link to='/plan/flight-information/arrivals-and-departures'>Arrivals and departures</Link></li>
+                    <li><Link to='/plan/flight-information/arrivals-and-departures'>Arrivals and Departures Information</Link></li>
+                    <li><Link to='/plan/flight-information/arrivals-and-departures'>Flight Timetables</Link></li>
+                    <li><Link to='/plan/flight-information/arrivals-and-departures'>Airport maps & connections</Link></li>
+                    <li><Link to='/plan/flight-information/arrivals-and-departures'>Travel alerts</Link></li>
+                    <li><Link to='/plan/flight-information/arrivals-and-departures'>Customer Service & Tarmac Delay Plan</Link></li>
+                    <li><Link to='/plan/flight-information/arrivals-and-departures'>Special assistance</Link></li>
                   </div>
                 </div>
 

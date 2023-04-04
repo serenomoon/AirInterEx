@@ -5,6 +5,8 @@ import { Baggage } from '../components/Plan/baggage/Baggage';
 import { Destination } from '../components/Plan/destination/Destination';
 import { DestinyPlace } from '../components/Plan/destination/DestinyPlace';
 import { PlaceInfo } from '../components/Plan/destination/placeinfo/PlaceInfo';
+import { ArriNDep } from '../components/Plan/flightinfo/arrindep/ArriNDep';
+import { FlightInfo } from '../components/Plan/flightinfo/FlightInfo';
 import { Plan } from '../components/Plan/Plan';
 import { TripIdeas } from '../components/Plan/tripideas/TripIdeas';
 
@@ -29,7 +31,8 @@ export const AppRouter = () => {
 
             <Route path='plan/baggage' element={ <Baggage /> }/>
 
-            <Route path='plan/flight-information' element={ <Destination /> }/>
+            <Route path='plan/flight-information' element={ <FlightInfo /> }/>
+            <Route path='plan/flight-information/arrivals-and-departures' element={ <ArriNDep /> }/>
 
             <Route path='plan/travel-requirements' element={ <Destination /> }/>
 
