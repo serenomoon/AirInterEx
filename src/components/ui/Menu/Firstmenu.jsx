@@ -54,10 +54,10 @@ export const Firstmenu = () => {
 
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
-                    <li><Link to='#'>Travel requirements</Link></li>
-                    <li><Link to='#'>Travel within New Zealand</Link></li>
-                    <li><Link to='#'>International travel requirements</Link></li>
-                    <li><Link to='#'>Pre-departure testing</Link></li>
+                    <li><Link to='/plan/travel-requirements'>Travel requirements</Link></li>
+                    <li><Link to='/plan/travel-requirements/travel-within-inter-ex'>Travel within Inter Ex</Link></li>
+                    <li><Link to='/plan/travel-requirements/travel-within-inter-ex'>International travel requirements</Link></li>
+                    <li><Link to='/plan/travel-requirements/travel-within-inter-ex'>Pre-departure testing</Link></li>
                   </div>
                 </div>
 

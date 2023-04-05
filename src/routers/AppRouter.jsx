@@ -9,6 +9,8 @@ import { ArriNDep } from '../components/Plan/flightinfo/arrindep/ArriNDep';
 import { FlightInfo } from '../components/Plan/flightinfo/FlightInfo';
 import { Plan } from '../components/Plan/Plan';
 import { TripIdeas } from '../components/Plan/tripideas/TripIdeas';
+import { TravelReq } from '../components/Plan/travelreq/TravelReq';
+import { TravelWithin } from '../components/Plan/travelreq/travelwithin/TravelWithin';
 
 export const AppRouter = () => {
   return (
@@ -34,7 +36,8 @@ export const AppRouter = () => {
             <Route path='plan/flight-information' element={ <FlightInfo /> }/>
             <Route path='plan/flight-information/arrivals-and-departures' element={ <ArriNDep /> }/>
 
-            <Route path='plan/travel-requirements' element={ <Destination /> }/>
+            <Route path='plan/travel-requirements' element={ <TravelReq /> }/>
+            <Route path='plan/travel-requirements/travel-within-inter-ex' element={ <TravelWithin /> }/>
 
             <Route path='plan/travel-where-we-fly' element={ <Destination /> }/>
             
