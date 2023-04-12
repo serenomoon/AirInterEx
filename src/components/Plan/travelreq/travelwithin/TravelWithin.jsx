@@ -6,14 +6,18 @@ import { Link } from 'react-router-dom';
 import  GooglePlay  from '../../../../assets/googleplay.png'
 import  AppStore  from '../../../../assets/appstore.png'
 import './TravelWithin.css';
-import { useState } from 'react';
 
 export const TravelWithin = () => {
 
-    const [openquest, setOpenquest] = useState(false);
 
-    const openQuestAns = () => {
-        setOpenquest(!openquest)
+    const openQuestAns = (e) => {
+        const ref = e.target.getElementsByClassName('travelwithin-question-i');
+    
+        ref[0].className == 'travelwithin-question-i fa fa-angle-up'
+        ?
+        ref[0].className = 'travelwithin-question-i fa fa-angle-down'
+        :
+        ref[0].className = 'travelwithin-question-i fa fa-angle-up'
     }
 
   return (
@@ -94,34 +98,85 @@ export const TravelWithin = () => {
 
             <div className='travelwithin-question-all'>
                 <h2>Frequently asked questions</h2>
-                
-                <div className='travelwithin-questansw' onClick={() => openQuestAns()}>
-                    <div className='travelwithin-question'>
-                        <div>
-                            <i className="fa fa-question-circle-o" aria-hidden="true"></i>
-                            <h3>Do I need a COVID-19 test before my flight?</h3>
+
+                <div>
+                    <label htmlFor="travelwithin-question-p-state1">    
+                        <div className='travelwithin-questansw' onClick={(e) => openQuestAns(e)}>
+                            <div className='travelwithin-question'>
+                                <div>
+                                    <i className="fa fa-question-circle-o" aria-hidden="true"></i>
+                                    <h3>Do I need a COVID-19 test before my flight?</h3>
+                                </div>
+                                <i className="travelwithin-question-i fa fa-angle-up" aria-hidden="true"></i>          
+                            </div>
                         </div>
-                        {
-                        openquest 
-                        ?
-                        <i className="fa fa-angle-up" aria-hidden="true"></i>
-                        :
-                        <i className="fa fa-angle-down" aria-hidden="true"></i>
-                        }
-                    </div>
-                    {
-                        openquest 
-                        ?
+                    </label>
+                    <input type="checkbox" id="travelwithin-question-p-state1" hidden />
+                    <div className='travelwithin-question-p travelwithin-question-p1'>
                         <p>You currently do not need  a negative COVID-35 test or proof of COVID-35 vaccination to travel domestically within Inter Ex.</p>
-                        :
-                        ''
-                    }
+                    </div>
                 </div>
+
+                <div>
+                    <label htmlFor="travelwithin-question-p-state2">    
+                        <div className='travelwithin-questansw' onClick={(e) => openQuestAns(e)}>
+                            <div className='travelwithin-question'>
+                                <div>
+                                    <i className="fa fa-question-circle-o" aria-hidden="true"></i>
+                                    <h3>Do I need to wear a face mask in airports or onboard your spaceship?</h3>
+                                </div>
+                                <i className="travelwithin-question-i fa fa-angle-up" aria-hidden="true"></i>          
+                            </div>
+                        </div>
+                    </label>
+                    <input type="checkbox" id="travelwithin-question-p-state2" hidden />
+                    <div className='travelwithin-question-p travelwithin-question-p2'>
+                        <p>We no longer require passengers to wear face masks on domestic flights. You are, of course, welcome to wear a mask when you travel with us, and we will continue to provide masks at our boarding gates.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <label htmlFor="travelwithin-question-p-state3">    
+                        <div className='travelwithin-questansw' onClick={(e) => openQuestAns(e)}>
+                            <div className='travelwithin-question'>
+                                <div>
+                                    <i className="fa fa-question-circle-o" aria-hidden="true"></i>
+                                    <h3>Can I travel with my pet within Inter Ex?</h3>
+                                </div>
+                                <i className="travelwithin-question-i fa fa-angle-up" aria-hidden="true"></i>          
+                            </div>
+                        </div>
+                    </label>
+                    <input type="checkbox" id="travelwithin-question-p-state3" hidden />
+                    <div className='travelwithin-question-p travelwithin-question-p3'>
+                        <p>Yes, you can travel with your pet as checked-in baggage between all parts of Solar System. See more about <Link>travelling with pets</Link>.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <label htmlFor="travelwithin-question-p-state4">    
+                        <div className='travelwithin-questansw' onClick={(e) => openQuestAns(e)}>
+                            <div className='travelwithin-question'>
+                                <div>
+                                    <i className="fa fa-question-circle-o" aria-hidden="true"></i>
+                                    <h3>Can my children travel as unaccompanied minors?</h3>
+                                </div>
+                                <i className="travelwithin-question-i fa fa-angle-up" aria-hidden="true"></i>          
+                            </div>
+                        </div>
+                    </label>
+                    <input type="checkbox" id="travelwithin-question-p-state4" hidden />
+                    <div className='travelwithin-question-p travelwithin-question-p4'>
+                        <p>Yes, you can make online bookings for children travelling alone between all parts of Solar System. Find out more about <Link>children flying alone</Link>.</p>
+                    </div>
+                </div>
+
+                
 
                 <div className='travelwithin-button'>
                     <div>
                         <Link>
-                        <h4>Did you find this page helpful?</h4>
+                            <h4>Did you find this page helpful?</h4>
                         </Link>
                     </div>
                     <button>Let us know</button>

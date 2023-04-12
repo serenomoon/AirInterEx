@@ -133,21 +133,18 @@
 
 .travelwithin-question-all h2 {
     font-size: 29px;
-    margin: 0;
+    margin: 0 0 20px 0;
     text-align: left;
 }
 
 .travelwithin-questansw {
-    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-top: 1px solid rgba(0, 0, 0, 0.288);
+    border-right: 1px solid rgba(0, 0, 0, 0.288);
+    border-left: 1px solid rgba(0, 0, 0, 0.288);
     border-radius: 2px;
-    padding: 45px 15px;
-    margin: 30px 0 0;
+    padding: 35px 15px;
+    margin: 0;
     cursor: pointer;
-}
-
-.travelwithin-questansw p {
-    text-align: left;
-    margin: 20px 10px 0 34px;
 }
 
 .travelwithin-question {
@@ -163,12 +160,76 @@
 .travelwithin-question h3 {
     margin: 0 10px;
     font-size: 23px;
+    pointer-events:none;
 }
 
 .travelwithin-question i {
     margin: auto 0;
     color: rgb(219, 88, 36);
     font-size: 23px;
+    pointer-events: none;
+}
+
+.travelwithin-question div {
+    pointer-events: none;
+}
+
+.travelwithin-question-p {
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0, 0, 0, 0.288);
+    border-left: 1px solid rgba(0, 0, 0, 0.288);
+    border-bottom: 1px solid transparent;
+}
+
+.travelwithin-question-p a {
+    color: rgb(219, 88, 36);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.travelwithin-question-p a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
+
+.travelwithin-question-p4 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+#travelwithin-question-p-state1:checked ~ .travelwithin-question-p1 {  
+    max-height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 20px;
+}
+
+#travelwithin-question-p-state2:checked ~ .travelwithin-question-p2 {  
+    max-height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 20px;
+}
+
+#travelwithin-question-p-state3:checked ~ .travelwithin-question-p3 {  
+    max-height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 20px;
+}
+
+#travelwithin-question-p-state4:checked ~ .travelwithin-question-p4 {  
+    max-height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 20px;
+}
+
+.travelwithin-question-p p {
+    padding: 0 15px 60px 50px;
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
 }
 
 .travelwithin-button {

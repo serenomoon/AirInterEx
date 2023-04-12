@@ -1,0 +1,36 @@
+.wherefly {
+    text-align: left;
+    padding: 30px 15%;
+}
+
+.wherefly h1 {
+    font-size: 50px;
+}
+
+.wherefly p {
+    font-size: 17px;
+}
+
+
+.wherefly a {
+    color: rgb(219, 88, 36);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.wherefly a:hover {
+    color: rgb(163, 64, 25);
+    transition: 0.3s;
+}
+
+.wherefly p a {
+    margin-left: 3px;
+}
+
+.wherefly h2 {
+    font-size: 30px;
+}
+
+.wherefly div {
+    margin: 45px 0;
+}

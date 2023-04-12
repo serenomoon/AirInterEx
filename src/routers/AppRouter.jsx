@@ -11,6 +11,7 @@ import { Plan } from '../components/Plan/Plan';
 import { TripIdeas } from '../components/Plan/tripideas/TripIdeas';
 import { TravelReq } from '../components/Plan/travelreq/TravelReq';
 import { TravelWithin } from '../components/Plan/travelreq/travelwithin/TravelWithin';
+import { WhereFly } from '../components/Plan/wherefly/WhereFly';
 
 export const AppRouter = () => {
   return (
@@ -39,9 +40,9 @@ export const AppRouter = () => {
             <Route path='plan/travel-requirements' element={ <TravelReq /> }/>
             <Route path='plan/travel-requirements/travel-within-inter-ex' element={ <TravelWithin /> }/>
 
-            <Route path='plan/travel-where-we-fly' element={ <Destination /> }/>
+            <Route path='plan/where-we-fly' element={ <WhereFly /> }/>
             
-            <Route path='plan/travel-corporate-travel' element={ <Destination /> }/>
+            <Route path='plan/corporate-travel' element={ <Destination /> }/>
         </>
     </Routes>
   )

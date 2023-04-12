@@ -63,7 +63,7 @@ export const Firstmenu = () => {
 
                 <div className='dropdown-back'>
                   <div className='dropdown-child'>
-                    <li><Link to='#'>Where We Fly</Link></li>
+                    <li><Link to='/plan/where-we-fly'>Where We Fly</Link></li>
                   </div>
                 </div>
 
